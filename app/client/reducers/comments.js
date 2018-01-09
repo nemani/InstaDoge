@@ -24,6 +24,11 @@ function postComments(state = [], action) {
 }
 
 function comments(state = [], action) {
+  if (action.type == "COMMENTS_FETCH_SUCCEEDED") {
+    console.log("got the comments from api");
+    console.log(action.data);
+    return action.data;
+  }
   if (typeof action.postId !== "undefined") {
     return {
       // take the current state
