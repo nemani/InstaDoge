@@ -1,0 +1,14 @@
+{
+	"print-width": 80,
+	"single-quote": false,
+	"trailing-comma": none,
+	"bracket-spacing": true,
+	"jsx-bracket-same-line": false,
+	"parser": "babylon",
+	"semi": true,
+	"require-pragma": false,
+	"prose-wrap": "preserve",
+	"arrow-parens": "avoid",
+	"tab-width": 2,
+	"use-tabs": false
+}
