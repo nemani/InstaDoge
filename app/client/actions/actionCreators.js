@@ -25,3 +25,18 @@ export function removeComment(postId, i) {
     postId
   };
 }
+
+export function addPost(code, display_src, caption) {
+  console.log("addPost called");
+  var post = {
+    caption,
+    display_src,
+    code,
+    likes: 0
+  };
+  console.log(post);
+  return {
+    type: "ADD_POST_ACTION",
+    post
+  };
+}

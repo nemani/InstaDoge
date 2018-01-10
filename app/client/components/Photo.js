@@ -49,4 +49,29 @@ const Photo = React.createClass({
   }
 });
 
+export const AddBox = React.createClass({
+  render() {
+    var box = {
+      display_src:
+        "https://res.cloudinary.com/instadoge/image/upload/v1515526596/instagram-image-size_a1l4uv.png",
+      caption: "Add a new Photo"
+    };
+    return (
+      <figure className="grid-figure">
+        <div className="grid-photo-wrap">
+          <Link to={`/add`}>
+            <img
+              src={box.display_src}
+              alt={box.caption}
+              className="grid-photo"
+            />
+          </Link>
+        </div>
+        <figcaption className="center">
+          <p>{box.caption}</p>
+        </figcaption>
+      </figure>
+    );
+  }
+});
 export default Photo;

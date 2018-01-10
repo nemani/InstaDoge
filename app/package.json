@@ -37,6 +37,7 @@
     "react": "^15.0.2",
     "react-addons-css-transition-group": "^15.0.2",
     "react-dom": "^15.0.2",
+    "react-dropzone": "^4.2.3",
     "react-redux": "^4.4.5",
     "react-router": "^2.4.0",
     "react-router-redux": "^4.0.4",
@@ -49,6 +50,7 @@
     "style-loader": "^0.13.1",
     "stylus": "^0.54.5",
     "stylus-loader": "^2.0.0",
+    "superagent": "^3.8.2",
     "webpack": "^1.13.0",
     "webpack-dev-middleware": "^1.6.1",
     "webpack-hot-middleware": "^2.10.0"

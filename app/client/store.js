@@ -29,9 +29,6 @@ sagaMiddleware.run(rootSaga);
 
 const action = type => store.dispatch({ type });
 
-action("POSTS_FETCH_REQUESTED");
-action("COMMENTS_FETCH_REQUESTED");
-
 export const history = syncHistoryWithStore(browserHistory, store);
 
 if (module.hot) {

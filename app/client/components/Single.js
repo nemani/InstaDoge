@@ -1,5 +1,5 @@
 import React from "react";
-import Photo from "./Photo";
+import Photo, { AddBox } from "./Photo";
 import Comments from "./Comments";
 
 const Single = React.createClass({
@@ -20,4 +20,13 @@ const Single = React.createClass({
   }
 });
 
+export const SingleAdd = React.createClass({
+  render() {
+    return (
+      <div className="single-photo">
+        <AddBox />
+      </div>
+    );
+  }
+});
 export default Single;

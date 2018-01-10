@@ -7,7 +7,8 @@ import css from "./styles/style.styl";
 
 // Import Components
 import App from "./components/App";
-import Single from "./components/Single";
+import Single, { SingleAdd } from "./components/Single";
+import Cloudinary from "./components/Cloudinary";
 import PhotoGrid from "./components/PhotoGrid";
 
 // import react router deps
@@ -20,6 +21,7 @@ const router = (
 		<Router history={history}>
 			<Route path="/" component={App}>
 				<IndexRoute component={PhotoGrid} />
+				<Route path="/add" component={Cloudinary} />
 				<Route path="/view/:postId" component={Single} />
 			</Route>
 		</Router>

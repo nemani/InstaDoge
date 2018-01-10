@@ -1,9 +1,10 @@
 function posts(state = [], action) {
   switch (action.type) {
     case "POSTS_FETCH_SUCCEEDED":
-      console.log("got the posts from api");
-      console.log(action.data);
       return action.data;
+    case "ADD_POST":
+      console.log(action);
+      return [action.post, ...state];
     case "INCREMENT_LIKES":
       console.log("Incrementing Likes!!");
       const i = action.index;
