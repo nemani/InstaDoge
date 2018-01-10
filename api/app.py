@@ -19,3 +19,6 @@ def save_state():
         # console.log(data)
         json.dump(data, open("state.json",'w'))
         return Response(status="200")
+
+if __name__ == '__main__':
+   app.run(debug = True)
