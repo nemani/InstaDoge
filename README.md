@@ -12,7 +12,7 @@ I might also explore **[React Native]** for Mobile client development.
 
 My aim is to complete the challenge by the end of **2018**.
 
-This app also serves as reference for future **[React]**, **[Redux]** Projects (as of right now).
+This app also serves as reference for future **[React]**, **[Redux]** and **[Redux-Saga]** Projects (as of right now).
 
 The backend is a simple devServer.
 
@@ -105,6 +105,7 @@ Open your broswer to localhost:7770/ to bask in the glory of InstaDoge
 * https://css-tricks.com/everything-need-know-instagram-api-integration/
 * https://github.com/webpack/webpack
 
+[Redux-Saga]: https://github.com/redux-saga/redux-saga
 [instagram]: https://instagram.com
 [doge]: (https://en.wikipedia.org/wiki/Doge_(meme))
 [stream]: https://getstream.io
